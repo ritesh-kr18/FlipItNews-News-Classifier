@@ -1,0 +1,8 @@
+{
+  "max_len": 200,
+  "vocab_size": 20000,
+  "num_classes": 5,
+  "embedding_dim": 64,
+  "hidden_size": 64,
+  "architecture": "bidirectional_gru"
+}

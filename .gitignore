@@ -1,0 +1,56 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Testing and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Local model training outputs (keep deployment artifacts)
+runs/
+wandb/
+lightning_logs/
+
+# Streamlit local settings
+.streamlit/secrets.toml
+
+
+bbc-news-data.csv
+
+/anaconda_projects
